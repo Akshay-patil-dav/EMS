@@ -1,0 +1,58 @@
+@import url("./sidebar.css");
+
+body{
+    overflow: hidden;
+}
+.emp {
+    position: absolute;
+    /* background-color: red; */
+    width: 5cm;
+}
+
+.employes-info {
+    overflow-x: hidden;
+    margin-left: 300px;
+    height: 9cm;
+    /* background-color: red; */
+    position: relative;
+    top: 250px;
+    width: 600px;
+    border: 1px solid;
+}
+
+.Active-Employee {
+    position: relative;
+    top: 230px;
+    margin-left: 300px;
+}
+.add-emp{
+    position: relative;
+    left: 7cm;
+}
+.tables-box{
+    overflow-x: hidden;
+    margin-left: 200px;
+    height: 15cm;
+    /* background-color: red; */
+    position: relative;
+    top: 200px;
+    width: 1500px;
+    border: 1px solid;
+}
+
+#searchBox{
+    position: relative;
+    left: 40cm;
+    top: 5cm;
+}
+.box{
+    margin: 2cm;
+    padding: 15cm;
+    position: relative;
+    bottom: 15cm;
+    /* background-color: red; */
+    height: cm;
+}
+li{
+    z-index: 5;
+}

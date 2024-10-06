@@ -1,0 +1,8 @@
+CREATE DATABASE ems;
+
+CREATE TABLE attendance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_name VARCHAR(100),
+    attendance_time DATETIME,
+    status VARCHAR(10)
+);
